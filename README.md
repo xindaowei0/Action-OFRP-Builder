@@ -23,14 +23,14 @@
 | Name | Description | Example |
 | ------------ | -------------------- | ------------ |
 | `SYNC_URL` | Script specified by OrangeFox | https://gitlab.com/OrangeFox/sync.git |
-| `MANIFEST_BRANCH` | Source branch | 12.1                                                         |
-| `DEVICE_TREE_URL` | Device address | https://github.com/OrangeFoxRecovery/device_xiaomi_laurel_sprout |
-| `DEVICE_TREE_BRANCH` | Device branch | fox_12.1 |
-| `DEVICE_PATH` | Device location | device/xiaomi/laurel_sprout |
+| `MANIFEST_BRANCH` | Source branch | master                                                         |
+| `DEVICE_TREE_URL` | Device address | https://github.com/xindaowei0/device_xiaomi_dagu |
+| `DEVICE_TREE_BRANCH` | Device branch | dagu-v0.0 |
+| `DEVICE_PATH` | Device location | device/xiaomi/dagu |
 | `COMMON_TREE_URL` | Common tree address |  |
 | `COMMON_PATH` | Common tree location |  |
-| `DEVICE_NAME` | Model name | laurel_sprout |
-| `MAKEFILE_NAME` | Makefile name | twrp_laurel_sprout |
+| `DEVICE_NAME` | Model name | dagu |
+| `MAKEFILE_NAME` | Makefile name | omni_dagu |
 | `BUILD_TARGET` | Build Target Partition (boot/recovery/vendorboot) | recovery |
 
 -----
