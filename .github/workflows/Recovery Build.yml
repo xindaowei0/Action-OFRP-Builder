@@ -15,10 +15,10 @@ on:
         description: 'DEVICE_TREE_URL'
         required: true
         default: 'https://github.com/xindaowei0/dagu_device_tree'
-      DEVICE_TREE_BRANCH:
+         DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'fox_11.0_Q'
+        default: 'main'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_dagu'
+        default: 'omni_dagu'
       BUILD_TARGET:
         description: 'BUILD_dagu'
         required: true
