@@ -23,12 +23,14 @@ on:
         description: 'DEVICE_PATH'
         required: true
         default: 'device/xiaomi/dagu'
-      COMMON_TREE_URL:
-        description: 'COMMON_TREE_URL (if no common tree, leave blank)'
-        required: false
-      COMMON_PATH:
-        description: 'COMMON_PATH (if no common tree, leave blank)'
-        required: false
+     # COMMON_TREE_URL:
+      #  description: 'COMMON_TREE_URL (if no common tree, leave blank)'
+       # required: false
+     
+   
+    #COMMON_PATH:
+     #   description: 'COMMON_PATH (if no common tree, leave blank)'
+      #  required: false
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
@@ -38,7 +40,7 @@ on:
         required: true
         default: 'twrp_dagu'
       BUILD_TARGET:
-        description: 'BUILD_DAGU'
+        description: 'BUILD_TARGE'
         required: true
         default: 'recovery'
 
