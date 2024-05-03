@@ -10,7 +10,7 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'dagu'
+        default: 'master'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_dagu'
+        default: 'twrp_dagu'
       BUILD_TARGET:
         description: 'BUILD_DAGU'
         required: true
