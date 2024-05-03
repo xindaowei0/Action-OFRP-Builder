@@ -15,7 +15,7 @@ on:
         description: 'DEVICE_TREE_URL'
         required: true
         default: 'https://github.com/xindaowei0/dagu_device_tree'
-         DEVICE_TREE_BRANCH:
+      DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
         default: 'main'
@@ -38,7 +38,7 @@ on:
         required: true
         default: 'omni_dagu'
       BUILD_TARGET:
-        description: 'BUILD_dagu'
+        description: 'BUILD_DAGU'
         required: true
         default: 'recovery'
 
